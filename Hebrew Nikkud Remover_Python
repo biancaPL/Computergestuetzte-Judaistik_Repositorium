@@ -1,0 +1,10 @@
+import re
+
+#put hebrew text with nikkud in here:
+input_text = "    "
+
+# let the code do it´s magic with removing:
+output_text = re.sub(r'[\u0591-\u05C7]', '', input_text)
+
+print(input_text)  # Print original Text
+print(output_text)  # Print text without Nikkud
