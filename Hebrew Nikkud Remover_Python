@@ -1,10 +1,11 @@
 import re
 
 #put hebrew text with nikkud in here:
-input_text = "    "
+input_text = "  INSERT TEXT HERE     "
 
 # let the code do it´s magic with removing:
 output_text = re.sub(r'[\u0591-\u05C7]', '', input_text)
 
-print(input_text)  # Print original Text
-print(output_text)  # Print text without Nikkud
+print(f"The original text inserted was: {input_text}") # Print original Text
+print(f"The text with removed Nikkud is: {output_text}")    # Print text withoud Nikkud
+
