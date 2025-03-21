@@ -7,5 +7,5 @@ input_text = "  INSERT TEXT HERE     "
 output_text = re.sub(r'[\u0591-\u05C7]', '', input_text)
 
 print(f"The original text inserted was: {input_text}") # Print original Text
-print(f"The text with removed Nikkud is: {output_text}")    # Print text withoud Nikkud
+print(f"The text with removed Nikkud is: {output_text}")    # Print text without Nikkud
 
